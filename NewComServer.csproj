@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ExcelDna.Addin" Version="*-*" />
+	</ItemGroup>
+
+  <PropertyGroup>
+    <ExcelAddInTlbExp>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\TlbExp.exe</ExcelAddInTlbExp>
+    <ExcelAddInTlbCreate>true</ExcelAddInTlbCreate>
+  </PropertyGroup>
+
+</Project>
