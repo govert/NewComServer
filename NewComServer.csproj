@@ -1,16 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net472</TargetFramework>
+		<TargetFramework>net6.0-windows</TargetFramework>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="ExcelDna.Addin" Version="*-*" />
+    <PackageReference Include="ExcelDna.Addin" Version="1.7.0-rc4" />
+    <PackageReference Include="dSpace.Runtime.InteropServices.BuildTasks" Version="0.23.4" />
+    <DsComTlbExportAssemblyPaths Include="$(NuGetPackageRoot)exceldna.integration/1.7.0-rc4/lib/net6.0-windows7.0" /> 
 	</ItemGroup>
 
   <PropertyGroup>
-    <ExcelAddInTlbExp>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\TlbExp.exe</ExcelAddInTlbExp>
-    <ExcelAddInTlbCreate>true</ExcelAddInTlbCreate>
+    <!--<ExcelAddInTlbExp>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\TlbExp.exe</ExcelAddInTlbExp>-->
+    <!--<ExcelDnaTlbDscom>true</ExcelDnaTlbDscom>-->
+    <!--<ExcelAddInTlbCreate>true</ExcelAddInTlbCreate>-->
+
   </PropertyGroup>
 
 </Project>

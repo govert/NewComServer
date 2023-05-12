@@ -23,7 +23,6 @@ namespace NewComServer
     }
 
     [ComVisible(true)]
-    [ClassInterface(ClassInterfaceType.AutoDual)]
     public class ComLibrary
     {
         public string ComLibraryHello()
@@ -38,7 +37,6 @@ namespace NewComServer
     }
 
     [ComVisible(true)]
-    [ClassInterface(ClassInterfaceType.AutoDual)]
     public class ComLibrary2
     {
         public string ComLibrary2Hello()
